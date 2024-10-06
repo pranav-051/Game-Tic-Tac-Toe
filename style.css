@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #22223b;
+    text-align: center;    
+}
+
+#p1{
+    font-size: 7vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #f2e9e4;
+    margin-top: 5vh;
+}
+
+#mainCointainer{
+   height: 75vh;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-left: 5%;
+   
+}
+
+#panel{
+    height: 27vmin;
+    width: 35vmin;
+    background-color: #4a4e69;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding-top: 3vmin;
+    border-style:solid;
+    border-color: #f2e9e4;
+    border-radius: 8%;
+    border-width: 0.5px;
+}
+
+#game{
+    height: 62vmin;
+    width: 62vmin;
+    background-color: #9a8c98;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+    padding: 1.5%;
+    border-radius: 3%;
+}
+
+.box{
+    height: 19vmin;
+    width: 19vmin;
+    background-color: #4a4e69;
+    border-width: 2px;
+    border-color: #22223b;
+    border-style: solid;
+    border-radius: 8%;
+    box-shadow: #22223b;
+    font-size: 10vmin;
+    color: #c9ada7;
+    
+}
+
+#p2{
+    font-size: 25px;
+    font-weight:650 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+    font-variant: small-caps;
+    color: #efdbe4;
+}
+
+#p3{
+    font-size: 35px;
+    font-weight:700 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+    color: #efdbe4;
+    
+}
+
+#reset{
+    height: 6vh;
+    width: 150px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #efdbe4;
+    color: #22223b;
+    border-radius: 1rem;
+    border-style: none;
+    margin-top: 2.5%;
+
+}
